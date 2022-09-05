@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ChosunCentennial';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/ChosunCentennial.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SeoulHangangM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SeoulHangangM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.bkg{
+    width : 100%;
+    height : 100%;
+    background-image: url("../images/choosuk_background_light.jpg");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    
+}
+.grid_dot{
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/dot_small.png');
+    position: absolute;
+    top: 0;
+    z-index: 10;
+           
+}
+
+.moon {
+    background-image: url('../images/%E2%80%94Pngtree%E2%80%94the%20moon%20is%20round%20in_3332773.png');
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 20;  
+}
+
+.persimmon{
+    background-image: url('../images/%E2%80%94Pngtree%E2%80%94big%20persimmon%20harvest%20persimmon%20plant_3801548.png');
+    z-index: 30;
+    
+}
+
+.contents{
+    position: absolute;
+    top: 10%;
+    left: ;
+    margin-left: ;
+    margin-top:;
+        
+    z-index: 20;
+    color: ghostwhite;
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+           
+}
+.contents_prename{
+    font-size: 30px;
+    font-family: 'ChosunCentennial' ;
+    text-align: left;
+    margin-left: 10%;
+    
+}
+.contents_name{
+    font-size: 66px;
+    margin-bottom: 20px;
+    font-family: 'GmarketSans';
+    text-align: left;
+    margin-left: 10%;
+}
+.contents_intro{
+    font-size: 26px; 
+    color: ghostwhite;
+    margin-top: 0px;
+    margin-bottom: 50px
+}
+.contents_menu{ 
+    color: ghostwhite;
+}
+.menu_list > li {
+    display: inline-block;
+    
+    width: 200px;
+    height: 55px;
+    margin-right: 20px;
+
+    
+}
+.menu_list > li > a {
+    color: inherit;
+}
+
+.menu_list > li > a > p {
+    font-size = px;
+    font-family: 'SeoulHangangM';
+    font-weight: 100;
+    margin-top: ;
+}
