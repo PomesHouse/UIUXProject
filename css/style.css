@@ -22,71 +22,73 @@
 html, body {
     width: 100%;
     height: 100%;
+ 
 }
 
-.bkg{
-    width : 100%;
-    height : 100%;
+
+body {
     background-image: url("../images/choosuk_background_light.jpg");
     background-size: cover;
-    background-position: center;
-    position: absolute;
-    top: 0;
-    
-}
-.grid_dot{
-    width: 100%;
-    height: 100%;
-    background-image: url('../images/dot_small.png');
-    position: absolute;
-    top: 0;
-    z-index: 10;
-           
 }
 
+
 .moon {
-    background-image: url('../images/%E2%80%94Pngtree%E2%80%94the%20moon%20is%20round%20in_3332773.png');
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: auto;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 15px;
+    right: -40px;
     z-index: 20;  
 }
 
 .persimmon{
-    background-image: url('../images/%E2%80%94Pngtree%E2%80%94big%20persimmon%20harvest%20persimmon%20plant_3801548.png');
-    z-index: 30;
     
+    height: 230px;
+    width: auto;
+    top: 200px;
+    right: 0;
+    position: absolute;
+    z-index: 20;  
+}
+
+.seoul_logo {
+    height: 70px;
+    position: relative;
+    display: block;
+
 }
 
 .contents{
     position: absolute;
-    top: 10%;
-    left: ;
-    margin-left: ;
-    margin-top:;
-        
+    top: 2%;
+    left: 2%;
+    right: 2%;
+    bottom: 2%;
+    width: 90%;
+    height: 100%;
     z-index: 20;
     color: ghostwhite;
-    font-weight: bold;
-    text-align: center;
-    font-family: sans-serif;
            
 }
 .contents_prename{
-    font-size: 30px;
+    font-size: 35px;
     font-family: 'ChosunCentennial' ;
     text-align: left;
     margin-left: 10%;
+    margin-bottom: 0px;
+    font-weight: 500;
     
 }
 .contents_name{
-    font-size: 66px;
+    font-size: 110px;
     margin-bottom: 20px;
     font-family: 'GmarketSans';
     text-align: left;
-    margin-left: 10%;
+    margin-left: 7%;
+    margin-top: 0px;
+    z-index: 30;
+    line-height: 120px;
+    font-weight: bolder  ;
 }
 .contents_intro{
     font-size: 26px; 
@@ -99,20 +101,37 @@ html, body {
 }
 .menu_list > li {
     display: inline-block;
-    
-    width: 200px;
+    font-size: 21px;
+    width: 300px;
     height: 55px;
-    margin-right: 20px;
+    margin-right: 30px;
 
     
 }
-.menu_list > li > a {
-    color: inherit;
-}
 
-.menu_list > li > a > p {
-    font-size = px;
+.contents .contents_menu {
+    padding: 3%;
+}
+.contents .contents_menu button{
+    width: 180px;
+    height: 56px;
+    border-radius: 10px;
+    border-color: ghostwhite;
+    background-color: inherit;
+    border: none;
     font-family: 'SeoulHangangM';
     font-weight: 100;
-    margin-top: ;
+    font-size: 23px;
+    color: ghostwhite;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.table1 {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
 }
