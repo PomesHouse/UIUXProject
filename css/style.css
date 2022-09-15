@@ -126,6 +126,137 @@ body {
     margin-right: 3%;
 }
 
+
+
+
+
+
+.button_1:hover{
+    transform: scale(1.1);
+}
+
+.button_1::before {
+  content: '';
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  z-index:-1;
+  width: 0%;
+  height:1px;
+  background: ghostwhite;
+  box-shadow: inset 0px 0px 0px ghostwhite;
+  display: block;
+}
+
+.button_1:hover::before {
+  width:100%;
+}
+
+.button_1::after {
+  content: '';
+  position: absolute;
+  right: 0px;
+  top:0px;
+  z-index:-1;
+  width: 0%;
+  height:1px;
+  background: ghostwhite; 
+}
+.button_1:hover::after {
+  width:100%;
+}
+.button_1:hover{
+  border-left:1px solid ghostwhite;
+  border-right:1px solid ghostwhite;
+}
+
+
+
+
+
+.button_2:hover{
+    transform: scale(1.1);
+}
+
+.button_2::before {
+  content: '';
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  z-index:-1;
+  width: 0%;
+  height:1px;
+  background: ghostwhite;
+  box-shadow: inset 0px 0px 0px ghostwhite;
+  display: block;
+}
+
+.button_2:hover::before {
+  width:100%;
+}
+
+.button_2::after {
+  content: '';
+  position: absolute;
+  right: 0px;
+  top:0px;
+  z-index:-1;
+  width: 0%;
+  height:1px;
+  background: ghostwhite; 
+}
+.button_2:hover::after {
+  width:100%;
+}
+.button_2:hover{
+  border-left:1px solid ghostwhite;
+  border-right:1px solid ghostwhite;
+}
+
+
+
+
+.button_3:hover{
+    transform: scale(1.1);
+}
+
+.button_3::before {
+  content: '';
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  z-index:-1;
+  width: 0%;
+  height:1px;
+  background: ghostwhite;
+  box-shadow: inset 0px 0px 0px ghostwhite;
+  display: block;
+}
+
+.button_3:hover::before {
+  width:100%;
+}
+
+.button_3::after {
+  content: '';
+  position: absolute;
+  right: 0px;
+  top:0px;
+  z-index:-1;
+  width: 0%;
+  height:1px;
+  background: ghostwhite; 
+}
+.button_3:hover::after {
+  width:100%;
+}
+.button_3:hover{
+  border-left:1px solid ghostwhite;
+  border-right:1px solid ghostwhite;
+}
+
+
+
 #button_img1 {
     display: none;
 }
